@@ -4,10 +4,10 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - define the nature of a number 
- *
- * Return: Always 0 (Success)
- */
+* main - define the nature of a number 
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n;
