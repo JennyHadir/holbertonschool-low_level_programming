@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - main function define the nature of a number
  *
+ * Return: 0
  */
 int main(void)
 {
