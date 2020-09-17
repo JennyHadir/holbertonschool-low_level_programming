@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - main function
  *
@@ -11,4 +12,5 @@ int main(void)
 	for (x = 48; x <= 57; x++)
 		putchar (x);
 	putchar ('\n');
+	return (0);
 }
