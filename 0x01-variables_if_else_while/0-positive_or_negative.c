@@ -3,6 +3,11 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
+/**
+ * main - define the nature of a number 
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
@@ -14,8 +19,7 @@ if (n == 0)
 {
 printf("%d is zero\n", n);
 }
-else
-if (n < 0)
+else if (n < 0)
 {
 printf("%d is negative\n", n);
 }
