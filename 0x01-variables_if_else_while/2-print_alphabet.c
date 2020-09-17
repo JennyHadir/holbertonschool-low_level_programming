@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
  * main - main function
  *
@@ -7,11 +6,12 @@
  */
 int main(void)
 {
-	int x;
+	char x;
 
-	for (x = 'A'; x <= 'Z'; x++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		putchar(tolower(x));
+		putchar(x);
 	}
+	putchar('\n');
 	return (0);
 }
