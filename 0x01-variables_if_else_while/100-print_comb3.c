@@ -24,8 +24,8 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				y = y + 1;
 			}
-			y = y + 1;
 		}
 	}
 		putchar('\n');
