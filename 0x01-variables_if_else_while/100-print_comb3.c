@@ -11,22 +11,23 @@ int main(void)
 
 	int x;
 	int y;
+	int z = 48;
 	for (x = 48; x < 58; x++)
 	{
-		for (y = 48; y < 58; y++)
+		for (y = z; y < 58; y++)
 		{
 			if (x != y)
 			{
 				putchar(x);
 				putchar(y);
-				if ((x < 58) && (y < 56))
+				if (!(x ==  56) && !(y == 57))
 				{
 					putchar(',');
 					putchar(' ');
 				}
-				y = y + 1;
 			}
 		}
+		z = z + 1;	       
 	}
 		putchar('\n');
 		return (0);
