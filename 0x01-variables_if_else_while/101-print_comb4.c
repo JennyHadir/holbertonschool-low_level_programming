@@ -24,8 +24,11 @@ int main(void)
 					putchar(x);
 					putchar(y);
 					putchar(z);
-					putchar(',');
-					putchar(' ');
+					if ((x != 55))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
