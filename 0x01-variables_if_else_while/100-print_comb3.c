@@ -12,6 +12,7 @@ int main(void)
 	int x;
 	int y;
 	int z = 48;
+
 	for (x = 48; x < 58; x++)
 	{
 		for (y = z; y < 58; y++)
@@ -31,7 +32,7 @@ int main(void)
 				}
 			}
 		}
-		z = z + 1;	       
+		z = z + 1;
 	}
 		putchar('\n');
 		return (0);
