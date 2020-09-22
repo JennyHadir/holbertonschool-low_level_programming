@@ -7,26 +7,21 @@
 int main(void)
 {
 	int i;
-	long int y, x;
-	long long int z;
+	long int y, x, z;
 
-	x = 1;
 	y = 1;
-	printf("%ld", x);
-	printf(", ");
-	printf("%ld", y);
-	printf(", ");
+	x = 1;
+	printf("%ld , ", y);
 	for (i = 1; i < 49; i++)
 	{
-		z = y + x;
-		printf("%lld", z);
-		x = y;
-		y = z;
-		if (i != 48)
-		{
-			printf(",");
-			printf(" ");
-		}
+			z = y + x;
+			printf("%ld", z);
+			if (i != 48)
+			{
+				printf(", ");
+				x = y;
+				y = z;
+			}
 	}
 	printf("\n");
 	return (0);
