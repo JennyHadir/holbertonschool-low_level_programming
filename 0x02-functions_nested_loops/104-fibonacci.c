@@ -11,17 +11,18 @@ int main(void)
 
 	y = 1;
 	x = 1;
-	printf("%ld, ", y);
-	for (i = 1; i < 99; i++)
+	z = 1;
+	for (i = 1; i < 98; i++)
 	{
-			z = y + x;
-			printf("%ld", z);
-			if (i != 98)
-			{
-				printf(", ");
-				x = y;
-				y = z;
-			}
+		printf("%ld, ", z);
+		z = y + x;
+		printf("%ld", z);
+		if (i != 98)
+		{
+			printf(", ");
+			x = y;
+			y = z;
+		}
 	}
 	printf("\n");
 	return (0);
