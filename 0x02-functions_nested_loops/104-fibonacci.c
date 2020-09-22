@@ -12,11 +12,11 @@ int main(void)
 	y = 1;
 	x = 1;
 	printf("%ld, ", y);
-	for (i = 1; i < 97; i++)
+	for (i = 1; i < 99; i++)
 	{
 			z = y + x;
 			printf("%ld", z);
-			if (i != 96)
+			if (i != 98)
 			{
 				printf(", ");
 				x = y;
