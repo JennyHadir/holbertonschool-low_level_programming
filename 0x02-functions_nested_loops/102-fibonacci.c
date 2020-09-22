@@ -11,17 +11,13 @@ int main(void)
 
 	y = 1;
 	x = 1;
-	printf("%ld, ", y);
+	z = 1;
 	for (i = 1; i < 49; i++)
 	{
-			z = y + x;
-			printf("%ld", z);
-			if (i != 48)
-			{
-				printf(", ");
-				x = y;
-				y = z;
-			}
+		printf("%ld, ", z);
+		z = y + x;
+		x = y;
+		y = z;
 	}
 	printf("\n");
 	return (0);
