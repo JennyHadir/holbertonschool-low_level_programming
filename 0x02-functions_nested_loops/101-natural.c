@@ -17,9 +17,9 @@ int main(void)
 	}
 	for (i = 0; i <= m; i++)
 	{
-		if ( !(i % 3 == 0))
+		if (!(i % 3 == 0))
 		{
-			s = s + (i *5);
+			s = s + (i * 5);
 		}
 	}
 	printf("%d\n", s);
