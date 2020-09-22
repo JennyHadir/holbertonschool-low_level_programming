@@ -11,7 +11,7 @@ int main(void)
 
 	y = 1;
 	x = 1;
-	printf("%ld , ", y);
+	printf("%ld, ", y);
 	for (i = 1; i < 49; i++)
 	{
 			z = y + x;
