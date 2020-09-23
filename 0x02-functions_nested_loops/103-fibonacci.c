@@ -10,8 +10,8 @@ int main(void)
 
 	x = 1;
 	y = 1;
-	z = 1;
 	s = 0;
+	z = 1;
 	while (z <= 4000000)
 	{
 		z = x + y;
