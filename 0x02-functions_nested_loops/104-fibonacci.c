@@ -7,14 +7,14 @@
 int main(void)
 {
 	int i;
-	long int y, x, z;
+	unsigned int y, x, z;
 
 	y = 1;
 	x = 1;
 	z = 1;
 	for (i = 1; i <= 98; i++)
 	{
-		printf("%ld", z);
+		printf("%u", z);
 		z = y + x;
 		x = y;
 		y = z;
