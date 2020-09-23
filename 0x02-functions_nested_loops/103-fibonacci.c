@@ -18,10 +18,9 @@ int main(void)
 		z = x + y;
 		x = y;
 		y = z;
-		w = z / 2;
-		if (z % 2)
+		if (y % 2 == 0)
 		{
-			s = s + w;
+			s = s + y;
 		}
 	}
 	printf("%ld\n", s);
