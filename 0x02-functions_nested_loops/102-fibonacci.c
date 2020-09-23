@@ -14,10 +14,14 @@ int main(void)
 	z = 1;
 	for (i = 1; i < 49; i++)
 	{
-		printf("%ld, ", z);
+		printf("%ld", z);
 		z = y + x;
 		x = y;
 		y = z;
+		if (i != 48)
+		{
+			printf(", ");
+		}
 	}
 	printf("\n");
 	return (0);
