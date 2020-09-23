@@ -7,7 +7,6 @@
 int main(void)
 {
 	long int y, x, z, s;
-	int w;
 
 	x = 1;
 	y = 1;
