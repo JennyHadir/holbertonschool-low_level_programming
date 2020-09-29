@@ -9,14 +9,12 @@ void puts2(char *str)
 {
 	int i, len;
 
-	i = 0;
 	len = 0;
 	while (str[len] != '\0')
 		len++;
-	while (i != len)
+	for (i = 0; i < len; i = i + 2)
 	{
 		_putchar(str[i]);
-		i += 2;
 	}
 	_putchar('\n');
 }
