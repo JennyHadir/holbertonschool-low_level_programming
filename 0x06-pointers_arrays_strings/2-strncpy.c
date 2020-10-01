@@ -1,23 +1,23 @@
 #include "holberton.h"
 /**
- * _strncat - cat function
+ * _strncpy - copy function
+ *
  * @dest: string
  * @src: string
- * @n: byte numbers
+ * @n: integer, numbers of bytes
  * Return: pointer
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
+	int i;
 	char *p1, *p2;
-	int i, length;
 
+	i = 0;
 	p1 = dest;
 	p2 = src;
-	for (length = 0; p1[length]; length++)
-	{}
 	while (i < n)
 	{
-		p1[length] = p2[i];
+		p1[i] = p2[i];
 		i++;
 	}
 	dest = p1;
