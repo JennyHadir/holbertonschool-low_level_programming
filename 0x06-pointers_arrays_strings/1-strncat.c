@@ -15,10 +15,11 @@ char *_strncat(char *dest, char *src, int n)
 	p2 = src;
 	for (length = 0; p1[length]; length++)
 	{}
-	while (i < n)
+	while (i < n && p2[i])
 	{
 		p1[length] = p2[i];
 		i++;
+		length++;
 	}
 	dest = p1;
 	return (dest);
