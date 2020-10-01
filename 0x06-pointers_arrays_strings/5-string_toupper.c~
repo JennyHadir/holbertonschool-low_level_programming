@@ -1,0 +1,10 @@
+#include "holberton.h"
+/**
+ * string_toupper - upper case function
+ *
+ * @s: string
+ * Return: char
+ */
+char *string_toupper(char *s)
+{
+	
