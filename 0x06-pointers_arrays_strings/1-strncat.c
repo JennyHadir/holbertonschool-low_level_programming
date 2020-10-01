@@ -15,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 	p2 = src;
 	for (length = 0; p1[length]; length++)
 	{}
-	for (i = 0; i< n && p2[i]; i++)
+	for (i = 0; i < n && p2[i]; i++)
 	{
 		p1[length] = p2[i];
 		length++;
