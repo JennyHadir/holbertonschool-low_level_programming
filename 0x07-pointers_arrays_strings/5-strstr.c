@@ -2,8 +2,8 @@
 /**
  * _strstr - finds the first occurrence of a substring in a string
  *
- * @haystack
- * @needle
+ * @haystack: string
+ * @needle: string
  * Return: pointer or null
  */
 char *_strstr(char *haystack, char *needle)
