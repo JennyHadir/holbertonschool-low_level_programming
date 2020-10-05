@@ -3,8 +3,8 @@
  * _strpbrk - locate first occurrence of string function
  *
  * @s: string
- * @accept : string
- * Return : char
+ * @accept: string
+ * Return: char
  */
 char *_strpbrk(char *s, char *accept)
 {
