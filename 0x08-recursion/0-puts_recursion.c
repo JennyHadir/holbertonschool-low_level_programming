@@ -1,0 +1,22 @@
+#include "holberton.h"
+/**
+ * _puts_recursion - puts function
+ *
+ * @s: pointer to string
+ * Return: void
+ */
+void _puts_recursion(char *s)
+{
+int i = 0;
+
+if (s[i])
+{
+_putchar(s[i]);
+i++;
+_puts_recursion(s + i);
+}
+else
+{
+_putchar('\n');
+}
+}
