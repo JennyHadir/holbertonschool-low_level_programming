@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * rt - return the natural square root of a number
+ * normal_sqrt - return the natural square root of a number
  *
  * @i: integer
  * @n: natural number
@@ -27,5 +27,5 @@ if (n < 0)
 {
 return (-1);
 }
- return (normal_sqrt(1, n));
+return (normal_sqrt(1, n));
 }
