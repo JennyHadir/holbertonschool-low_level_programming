@@ -11,7 +11,8 @@ int main(int argc, char **argv)
 {
 int cents, change = 0;
 if (argc != 2)
-{printf("ERROR\n");
+{
+printf("ERROR\n");
 return (1); }
 cents = atoi(argv[1]);
 if (cents < 1)
