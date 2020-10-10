@@ -14,6 +14,9 @@ if (argc < 3)
 printf("ERROR\n");
 return (1);
 }
+else
+{
 printf("%d\n", atoi(argv[2]) * atoi(argv[1]));
 return (0);
+}
 }
