@@ -2,7 +2,7 @@
 /**
  * main - main function
  *
- * @i: integer, first argument of argv
+ * @argc: size of array
  * @argv: array contains the argument value
  * Return: 0
  */
