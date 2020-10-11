@@ -8,17 +8,17 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char *p1, *p2;
-	int i, length;
+char *p1, *p2;
+int i, length;
 
-	p1 = dest;
-	p2 = src;
-	for (length = 0; p1[length]; length++)
-	{}
-	for (i = 0; i < n && p2[i]; i++)
-	{
-		p1[length] = p2[i];
-		length++;
-	}
-	return (dest);
+p1 = dest;
+p2 = src;
+for (length = 0; p1[length]; length++)
+{}
+for (i = 0; i < n && p2[i]; i++)
+{
+p1[length] = p2[i];
+length++;
+}
+return (dest);
 }
