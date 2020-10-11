@@ -20,7 +20,7 @@ i++;
 }
 else
 {
-printf("Error\n");
+printf("ERROR\n");
 return (1);
 }
 }

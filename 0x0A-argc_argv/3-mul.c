@@ -9,13 +9,11 @@
  */
 int main(int argc, char **argv)
 {
-int mulp;
 if (argc < 3)
 {
-printf("ERROR\n");
+printf("Error\n");
 return (1);
 }
-mulp =  atoi(argv[2]) * atoi(argv[1]);
-printf("%d\n", mulp);
+printf("%d\n", atoi(argv[2]) * atoi(argv[1]));
 return (0);
 }
