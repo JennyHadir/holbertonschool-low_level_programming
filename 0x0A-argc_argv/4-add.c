@@ -4,24 +4,26 @@
 /**
  * main - main function
  *
- * @argv
- * @argc
+ * @argv: array of argument
+ * @argc: size of array
  * Return: 1 if fail 0 if succes
  */
 int main(int argc, char **argv)
 {
-int sum = 0, i = 1;
-while (argc > i)
+int sum = 0, i, j;
+if (argc > 1)
 {
-if (isalpha(*argv[i]) == 0)
+for (i = 1; i < argc; i++)
 {
-sum += atoi(argv[i]);
-i++;
-}
-else
+for (j = 0; argv[i][j]; j++)
+{
+if (argv[i][j] < '0' || argv[i][j] > '9')
 {
 printf("Error\n");
 return (1);
+}
+}
+sum += atoi(argv[i]);
 }
 }
 printf("%d\n", sum);
