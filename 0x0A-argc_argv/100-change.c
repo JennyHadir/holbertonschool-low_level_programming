@@ -18,14 +18,14 @@ return (1); }
 cents = atoi(argv[1]);
 if (cents < 1)
 printf("%d\n", 0);
-if (cents != 0)
+else
 {
 for (i = 0; i < 5; i++)
 {
 change += cents / bills[i];
 cents %= bills[i];
 }
-}
 printf("%d\n", change);
+}
 return (0);
 }
