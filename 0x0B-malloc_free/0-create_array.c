@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- *create_array - allocation function
+ * create_array - allocation function
  *
  *@size: size of array
  *@c: char
