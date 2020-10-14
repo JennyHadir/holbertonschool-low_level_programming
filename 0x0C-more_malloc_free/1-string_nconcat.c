@@ -30,6 +30,10 @@ else
 {
 s3 = malloc(sizeof(char) * (len1 + n + 1));
 }
+if (s3 == NULL)
+{
+return (NULL);
+}
 while (i < len1)
 {
 s3[i] = s1[i];
