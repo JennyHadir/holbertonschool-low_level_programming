@@ -7,7 +7,7 @@
  *@size: integer
  * Return: pointer
  */
-void *_calloc(unsigned int nmemb, unsigned size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 unsigned int i;
 char *ary;
