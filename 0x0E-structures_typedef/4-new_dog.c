@@ -18,7 +18,7 @@ d->age = age;
 for (len = 0; name[len]; len++)
 ;
 len++;
-d->name = malloc(len * sizeof(char));
+d->name = malloc(sizeof(name));
 if (d->name == NULL)
 {
 free(d);
@@ -30,7 +30,7 @@ d->name[len] = '\0';
 for (len = 0; owner[len]; len++)
 ;
 len++;
-d->owner = malloc(len * sizeof(char));
+d->owner = malloc(sizeof(owner));
 if (d->owner == NULL)
 {
 free(d->name);
