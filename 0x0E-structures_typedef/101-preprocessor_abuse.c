@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define p printf("Hello, Holberton\n")
+#define p (printf("Hello, Holberton\n"))
 /**
  *main - main function
  */
