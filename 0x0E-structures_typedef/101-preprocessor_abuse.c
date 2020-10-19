@@ -1,1 +1,1 @@
-main() { puts("Hello, Holberton"); }
+main(){puts("Hello, Holberton");}
