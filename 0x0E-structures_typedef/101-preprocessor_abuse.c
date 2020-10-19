@@ -4,6 +4,4 @@
  *main - m
  */
 void main(void)
-{
-p;
-}
+{p; }
