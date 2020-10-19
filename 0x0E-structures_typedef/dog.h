@@ -5,7 +5,7 @@
  *@name: dog name
  *@age: dog age
  *@owner: dog owner
- */
+ **/
 typedef struct dog
 {
   char *name;
