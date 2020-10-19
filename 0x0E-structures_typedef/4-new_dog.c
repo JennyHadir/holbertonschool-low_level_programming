@@ -29,6 +29,7 @@ d->name[len] = name[len];
 d->name[len] = '\0';
 for (len = 0; owner[len]; len++)
 ;
+len++;
 d->owner = malloc(len * sizeof(char));
 if (d->owner == NULL)
 {
