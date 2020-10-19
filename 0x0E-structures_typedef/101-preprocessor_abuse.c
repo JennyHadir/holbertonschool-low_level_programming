@@ -1,6 +1,9 @@
 #include <stdio.h>
 #define p printf("Hello, Holberton\n")
-void main()
+/**
+ *main - m
+ */
+void main(void)
 {
 p;
 }
