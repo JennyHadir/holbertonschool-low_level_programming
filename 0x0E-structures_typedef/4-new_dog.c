@@ -15,9 +15,6 @@ d = malloc(sizeof(dog_t));
 if (d == NULL)
 return (NULL);
 d->age = age;
-for (len = 0; name[len]; len++)
-;
-len++;
 d->name = malloc(sizeof(name) + 1);
 if (d->name == NULL)
 {
@@ -27,9 +24,6 @@ return (NULL);
 for (len = 0; name[len]; len++)
 d->name[len] = name[len];
 d->name[len] = '\0';
-for (len = 0; owner[len]; len++)
-;
-len++;
 d->owner = malloc(sizeof(owner) + 1);
 if (d->owner == NULL)
 {
@@ -39,6 +33,6 @@ return (NULL);
 }
 for (len = 0; owner[len]; len++)
 d->owner[len] = owner[len];
-d->owner[len + 1] = '\0';
+d->owner[len] = '\0';
 return (d);
 }
