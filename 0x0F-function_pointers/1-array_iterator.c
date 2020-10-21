@@ -1,5 +1,5 @@
 #include "function_pointers.h"
-#include <stddef>
+#include <stddef.h>
 /**
  * array_iterator - execute a function of array
  *@size: size of array
@@ -14,5 +14,6 @@ if (array && action)
 for (i = 0; i < size; i++)
 {
 action(array[i]);
+}
 }
 }
