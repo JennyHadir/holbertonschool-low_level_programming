@@ -15,10 +15,10 @@ unsigned int i;
 va_start(list, n);
 for (i = 0; i < n; i++)
 {
-if (i == n - 1)
-printf("%d", va_arg(list, int));
-else
+if (separator && i < n - 1)
 printf("%d%s", va_arg(list, int), separator);
+else
+printf("%d", va_arg(list, int));
 }
 printf("\n");
 va_end(list);
