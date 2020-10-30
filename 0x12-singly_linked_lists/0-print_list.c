@@ -11,7 +11,7 @@ size_t print_list(const list_t *h)
 const list_t *lk;
 unsigned int numb = 0;
 lk = h;
-while(lk)
+while (lk)
 {
 if (lk->str == NULL)
 printf("[0] (nil)\n");
