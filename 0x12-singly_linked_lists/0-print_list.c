@@ -8,12 +8,12 @@
 size_t print_list(const list_t *h)
 {
 const list_t *temp;
-unsigned int numb = 0;
+unsigned int i, numb = 0;
 temp = h;
-while (temp)
+for (i = 0; temp; i++)
 {
 if (temp->str == NULL)
-printf("[%u] %s\n", 0, "(nil)");
+printf("[0] (nil)\n");
 else
 printf("[%u] %s\n", temp->len, temp->str);
 numb++;
