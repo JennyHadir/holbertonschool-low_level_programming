@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+#include <string.h>
 /**
  * print_list - list printer function
  *@h: linked list
@@ -13,7 +14,7 @@ lk = h;
 while(lk)
 {
 if (lk->str == NULL)
-printf("[%u] (nil)\n", 0);
+printf("[0] (nil)\n");
 else
 printf("[%u] %s\n", lk->len, lk->str);
 numb++;
