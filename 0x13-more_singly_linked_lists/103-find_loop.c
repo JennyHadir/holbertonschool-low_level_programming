@@ -20,13 +20,13 @@ fast_p = fast_p->next->next;
 if (fast_p == slow_p)
 {
 slow_p = head;
-return (slow_p);
-}
+while (slow_p != fast_p)
+{
 slow_p = slow_p->next;
 fast_p = fast_p->next;
 }
-while (slow_p != fast_p)
-{
+return (slow_p);
+}
 slow_p = slow_p->next;
 fast_p = fast_p->next;
 }
