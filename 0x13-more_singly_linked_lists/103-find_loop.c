@@ -24,6 +24,4 @@ return (slow_p);
 slow_p = slow_p->next;
 fast_p = fast_p->next;
 }
-if (!slow_p || !fast_p || !fast_p->next)
-return (NULL);
 }
