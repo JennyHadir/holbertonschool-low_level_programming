@@ -12,8 +12,6 @@ listint_t *slow_p, *fast_p;
 if (head == NULL || head->next == NULL)
 return (NULL);
 slow_p = fast_p = head;
-if (!slow_p || !fast_p || !fast_p->next)
-return (NULL);
 while (slow_p && fast_p && fast_p->next)
 {
 slow_p = slow_p->next;
@@ -21,10 +19,11 @@ fast_p = fast_p->next->next;
 if (fast_p == slow_p)
 {
 slow_p = head;
-break;
+return (fast_p);
 }
 slow_p = slow_p->next;
 fast_p = fast_p->next;
 }
-return (slow_p);
+if (!slow_p || !fast_p || !fast_p->next)
+return (NULL);
 }
