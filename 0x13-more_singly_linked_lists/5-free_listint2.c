@@ -12,9 +12,9 @@ listint_t *temp, *temp1;
 temp = *head;
 while (temp)
 {
-temp1 = temp->next;
-free(temp);
-temp = temp1;
+temp1 = temp;
+temp = temp->next;
+free(temp1);
 }
-*head = NULL;
+head = NULL;
 }
