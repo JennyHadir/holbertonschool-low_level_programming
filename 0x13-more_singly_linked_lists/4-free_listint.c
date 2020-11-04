@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * free_listint - frees a list
  *@head: pointer to the first element of a list

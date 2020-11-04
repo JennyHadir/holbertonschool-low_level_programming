@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * pop_listint - delete the head node
  *@head: pointer to the first node of the list

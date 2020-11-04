@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * add_nodeint_end - add new node at the end of a list
  *@head: pointer to the first element of the list
