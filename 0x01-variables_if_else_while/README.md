@@ -58,7 +58,5 @@ ___
 # Advanced
 | More tasks                | Objective                                                                                 |
 |---------------------------|-------------------------------------------------------------------------------------------|
-|[100-print_comb3]() | A program that prints all possible different combinations of two digits.The two digits must be different
-01 and 10 are considered the same combination of the three digits 0, 1 and 2,Print only the smallest combination of three digits, Numbers should be printed in ascending order. Use only the putchar function and no more than five times the use of variables of type char is not allowed.|
-|[101-print_comb4]() | A program that prints all possible different combinations of three digits. The three digits must be different
-012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2, Print only the smallest combination of three digits, Numbers should be printed in ascending order. Use only the putchar function and no more than six times the use of variables of type char is not allowed. |
+|[100-print_comb3]() | A program that prints all possible different combinations of two digits.The two digits must be different 01 and 10 are considered the same combination of the three digits 0, 1 and 2,Print only the smallest combination of three digits, Numbers should be printed in ascending order. Use only the putchar function and no more than five times the use of variables of type char is not allowed.|
+|[101-print_comb4]() | A program that prints all possible different combinations of three digits. The three digits must be different 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2, Print only the smallest combination of three digits, Numbers should be printed in ascending order. Use only the putchar function and no more than six times the use of variables of type char is not allowed. |
