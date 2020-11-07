@@ -54,8 +54,7 @@ ___
 |[7-print_tebahpla.c]() | A program that prints the lowercase alphabet in reverse, followed by a new line. Use only putchar function and no more than 2 time |
 |[8-print_base16.c]() | A program that prints all the numbers of base 16 in lowercase, followed by a new line. Use only putchar function and no more than 3 times |
 |[9-print_comb.c]() | A program that prints all possible combinations of single-digit numbers. Numbers must be separated by ,, followed by a space, And should be printed in ascending order. Use only the putchar function and no more than four times the use of variables of type char is not allowed. |
-|[10-print_comb2.c]() | A program that prints the numbers from 00 to 99. Numbers must be separated by ,, follow\
-ed by a space, And should be printed in ascending order. Use only the putchar function and no more than five times the use of variables of type char is not allowed.|
+|[10-print_comb2.c]() | A program that prints the numbers from 00 to 99. Numbers must be separated by ,, followed by a space, And should be printed in ascending order. Use only the putchar function and no more than five times the use of variables of type char is not allowed.|
 # Advanced
 | More tasks                | Objective                                                                                 |
 |---------------------------|-------------------------------------------------------------------------------------------|
