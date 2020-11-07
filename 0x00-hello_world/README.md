@@ -43,15 +43,10 @@ ___
 |------------------|-----------------------------------------------------------------------------------------------------|
 | [0-preprocessor](https://github.com/JennyHadir/holbertonschool-low_level_programming/blob/master/0x00-hello_world/0-preprocessor) | script that runs a C file through the preprocessor and save the result into another file. |
 | [1-compiler](https://github.com/JennyHadir/holbertonschool-low_level_programming/blob/master/0x00-hello_world/1-compiler) | script that compiles a C file but does not link. |
-
 | [2-assembler](https://github.com/JennyHadir/holbertonschool-low_level_programming/blob/master/0x00-hello_world/2-assembler) |  script that generates the assembly code of a C code and save it in an output file. |
-
 | [3-name](https://github.com/JennyHadir/holbertonschool-low_level_programming/blob/master/0x00-hello_world/3-name) | script that compiles a C file and creates an executable named cisfun |
-
 | [4-puts](https://github.com/JennyHadir/holbertonschool-low_level_programming/blob/master/0x00-hello_world/4-puts.c) | C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line. (use the function puts and the return value is 0) |
-
 | [5-printf](https://github.com/JennyHadir/holbertonschool-low_level_programming/blob/master/0x00-hello_world/5-printf.c) | C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. |
-
 | [6-size](https://github.com/JennyHadir/holbertonschool-low_level_programming/blob/master/0x00-hello_world/6-size.c)| C program that prints the size of various types on the computer it is compiled and run on.|
 | [7-GCC main.c]( https://medium.com/@hadirjenni/what-happens-when-you-type-gcc-main-c-9156e8990dac?sk=ff67e748c0ea6703cdbc03fffdb27631) | A blog post in medium that explains all the steps of compilation. Use command lines and examples to illustrate. |
 ## Advanced
