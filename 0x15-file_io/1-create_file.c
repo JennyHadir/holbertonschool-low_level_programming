@@ -17,7 +17,7 @@ int len = 0;
 ssize_t op_fl, wr_fl;
 if (filename == NULL)
 return (-1);
-if (filename != NULL)
+if (text_content != NULL)
 {
 for (; text_content[len]; len++)
 ;
