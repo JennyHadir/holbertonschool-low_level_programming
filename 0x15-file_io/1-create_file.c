@@ -18,8 +18,10 @@ ssize_t op_fl, wr_fl;
 if (filename == NULL)
 return (-1);
 if (filename != NULL)
+{
 for (; text_content[len]; len++)
 ;
+}
 op_fl = open(filename, O_CREAT | O_RDWR | O_TRUNC, S_IRUSR | S_IWUSR);
 wr_fl = write(op_fl, text_content, len);
 if (op_fl == -1 || wr_fl == -1)
