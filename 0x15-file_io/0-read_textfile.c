@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include <stddef.h>
 /**
  * read_textfile - reads a text file and prints it to the POSIX
  *@filename: file to read and print
@@ -38,6 +37,7 @@ return (0);
 }
 wr_fl = write(STDOUT_FILENO, fl, rd_fl);
 free(fl);
+close(op_fl);
 if (wr_fl != rd_fl)
 return (0);
 return (wr_fl);
