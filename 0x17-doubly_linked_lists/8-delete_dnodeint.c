@@ -14,13 +14,6 @@ dlistint_t *tmp;
 if (*head == NULL)
 return (-1);
 tmp = *head;
-if (counter == index)
-{
-*head = (*head)->next;
-(*head)->prev = NULL;
-free(tmp);
-return (1);
-}
 for (; tmp && counter < index; counter++)
 tmp = tmp->next;
 if (counter == index)
@@ -28,6 +21,13 @@ if (counter == index)
 if ((*head)->next == NULL)
 {
 *head = NULL;
+free(tmp);
+return (1);
+}
+if (tmp == (*head))
+{
+(*head) = (*head)->next;
+(*head)->prev = NULL;
 free(tmp);
 return (1);
 }
