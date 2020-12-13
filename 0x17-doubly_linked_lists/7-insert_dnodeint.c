@@ -14,7 +14,7 @@ dlistint_t *tmp, *tmp1;
 unsigned int count;
 
 if (idx == 0)
-add_dnodeint(h, n);
+return (add_dnodeint(h, n));
 if (idx != 0 && *h == NULL)
 return (NULL);
 tmp = *h;
@@ -37,7 +37,7 @@ tmp = tmp->next;
 if (count + 1 == idx)
 {
 free(tmp1);
-add_dnodeint_end(h, n);
+return(add_dnodeint_end(h, n));
 }
 free(tmp1);
 return (NULL);
