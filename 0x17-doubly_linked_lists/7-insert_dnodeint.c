@@ -22,22 +22,22 @@ tmp1 = malloc(sizeof(dlistint_t));
 if (tmp1 == NULL)
 return (NULL);
 tmp1->n = n;
-for (count = 0; tmp->next; count++)
+for (count = 0; tmp; count++)
 {
-if (count + 1 == idx)
+if (count == idx)
 {
-tmp1->next = tmp->next;
-tmp->next = tmp1;
-tmp1->prev = tmp;
-tmp->next->prev = tmp1;
+tmp1->prev = tmp->prev;
+tmp1->next = tmp;
+tmp->prev = tmp1;
+tmp1->prev->next = tmp1;
 return (tmp1);
 }
-tmp = tmp->next;
-}
-if (count + 1 == idx)
+if (count + 1 == idx && tmp->next == NULL)
 {
 free(tmp1);
 return (add_dnodeint_end(h, n));
+}
+tmp = tmp->next;
 }
 free(tmp1);
 return (NULL);
