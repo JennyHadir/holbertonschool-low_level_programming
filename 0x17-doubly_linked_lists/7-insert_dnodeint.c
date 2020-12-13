@@ -37,7 +37,7 @@ tmp = tmp->next;
 if (count + 1 == idx)
 {
 free(tmp1);
-return(add_dnodeint_end(h, n));
+return (add_dnodeint_end(h, n));
 }
 free(tmp1);
 return (NULL);
